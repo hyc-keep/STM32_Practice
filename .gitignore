@@ -1,0 +1,49 @@
+# -------- Keil 编译输出文件（Listings / Objects 子目录） --------
+*.lst
+*.o
+*.d
+*.crf
+*.lnp
+*.axf
+*.htm
+*.build_log.htm
+*.dep
+*.iex
+*.i
+*_2i
+*.l2p
+*.fed
+*.map
+
+# 固件产物
+*.hex
+*.bin
+
+# 备份文件
+*.bak
+*.Bak
+
+# -------- Keil 工程个人配置 --------
+# 窗口布局文件
+*.uvguix.*
+*.uvgui.*
+# 用户选项：调试器设置、断点等
+*.uvoptx
+*.uvopt
+# Keil 4 编译日志
+*.plg
+
+# -------- J-Link 调试器 --------
+JLinkLog.txt
+*.dbgconf
+*.jlink
+
+# -------- IDE / 编辑器 --------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------- Windows 系统文件 --------
+Thumbs.db
+Desktop.ini
